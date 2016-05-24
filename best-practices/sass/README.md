@@ -95,30 +95,32 @@ General
 =======
 
 * Use **SCSS** (not SASS) syntax.
-* Use **rem** as the default unit. px is allowed when specific sizes are
+* Use **rem** as the default unit. **px** is allowed when specific sizes are
   required.
 * Separate selectors with a single line.
 * Don't add more than one attribute per line, and always start the attribute
   definition in the line below the selector line. An exception can be made when
-  there is only one attribute, in which case the selector +  attribute can be
+  there is only one attribute, in which case the selector **+**  attribute can be
   written in one line.
 * Use double quotation marks.
-* Use one space between property and value (width: 20px not width:20px).
-* Don't add unit after 0 values (width: 0, not width: 0px).
-* Use one space between selector and {.
-* Use a leading zero in decimal numbers (0.5 not .5).
-* Use space around operands ($variable * 1.5, not $variable*1.5)
+* Use one space between property and value (**width: 20px** not width:20px).
+* Don't add unit after 0 values (**width: 0**, not width: 0px).
+* Use one space between selector and **{**.
+* Use a leading zero in decimal numbers (**0.5** not .5).
+* Use space around operands (**$variable * 1.5**, not $variable*1.5)
 * Avoid the extra amount of values when writing attributes in compact
-  form (padding: 1rem 0 0; instead of padding: 1rem 0 0 0;)
-* Use parentheses when including operations in attributes ( padding:
-  ($variable * 1.5) ($variable * 2) ).
+  form (**padding: 1rem 0 0;** instead of padding: 1rem 0 0 0;)
+* Use parentheses when including operations in attributes ( **padding:
+  ($variable * 1.5) ($variable * 2)** ).
 * When testing or doing some refactoring, add the new elements with no
   indentation. Indent them when it's clear that it's valid and should belong
-  to the selector.
+  to the selector.  
+~~~
 selector {  
   test-attribute: value;  
   regular-attribute: value;  
 }  
+~~~
 
 Naming
 ======
@@ -134,7 +136,7 @@ Naming
 - All names in **lowercase**.
 - Separate names using hyphens for mixins, extends, classes and
   functions: container-main (not container_main or containerMain).
-- Use underscore \_ for variable names: $blue_color instead of $blue-color.
+- Use underscore **\_** for variable names: **$blue_color** instead of $blue-color.
 
 Efficiency and structure
 ========================
@@ -209,7 +211,7 @@ container-main {
 
     article {  
       attribute: value;  
-      
+
       p { attribute: value; }  
     }  
   }  
