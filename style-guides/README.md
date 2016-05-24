@@ -10,8 +10,8 @@ Spacing
 -------
 
 * There should be no trailing whitespaces.
-* Don't include spaces after (, [ or before ], ).
-* Include spaces around { and before }.
+* Don't include spaces after `(`, `[` or before `]`, `)`.
+* Include spaces around `{` and before `}`.
 * Space between two methods should be an empty line.
 * Space should be used after a comma, after colons and semicolons.
 
@@ -33,9 +33,9 @@ Ruby
 * We'll follow the general [Ruby style guidelines]
 * When breaking a chain of method calls, leave the dot at the end of the line.
 
-   very_long_method.
-    another_long_method.
-    last_one
+   very_long_method.  
+    another_long_method.  
+    last_one  
 
 * Indent private methods equal to public methods.
 * Caller methods should be earlier in the file than the methods they call.
@@ -69,8 +69,8 @@ line separating the summary from the body is critical (unless you omit
 the body entirely); tools like rebase can get confused if you run the
 two together.
 
-Write your commit message in the imperative: `"`Fix bug`"` and not `"`Fixed bug`"`
-or `"`Fixes bug.`"`. This convention matches up with commit messages generated
+Write your commit message in the imperative: `"Fix bug"` and not `"Fixed bug"`
+or `"Fixes bug."`. This convention matches up with commit messages generated
 by commands like git merge and git revert.
 
 Further paragraphs come after blank lines.
@@ -91,7 +91,8 @@ Javascript
 SQL
 ---
 
-* Write SQL key words in upper case and names in lower case. &lt;code&gt;UPDATE my_table SET a = 5;&lt;/code&gt;
+* Write SQL key words in upper case and names in lower case.  
+  <code>UPDATE my_table SET a = 5;</code>  
 
 Design
 ======
@@ -101,7 +102,7 @@ Sass
 
 [Sass style guide]
 
-[Sass style guide]: https://github.com/acidtango/acid_guides/best-practices/sass/
+[Sass style guide]: https://github.com/acidtango/acid_guides/tree/master/best-practices/sass/
 
 HTML
 ----

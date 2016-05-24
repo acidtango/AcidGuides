@@ -20,7 +20,7 @@ Git
 
 [Git methodology]
 
-[Git methodology]: https://github.com/acidtango/acid_guides/best-practices/git
+[Git methodology]: https://github.com/acidtango/acid_guides/tree/master/best-practices/git
 
 Object-Oriented Design
 ======================
