@@ -206,8 +206,10 @@ container-main {
   .nested-class {  
     attribute: value;  
     attribute: ($variable * 1.5) 2em;  
+
     article {  
       attribute: value;  
+      
       p { attribute: value; }  
     }  
   }  
