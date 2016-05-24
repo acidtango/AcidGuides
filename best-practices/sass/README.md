@@ -42,12 +42,14 @@ CSS file structure
 
 Initial comment
 ---------------
-
+~~~
 // -------------------------------------------------------  
 //  
 // This file is ... and ...  
 //  
 // -------------------------------------------------------  
+~~~
+
 Imports
 -------
 Variables
@@ -60,8 +62,9 @@ Rest of styles (.msg-alert)
 ---------------------------
 
 All the logical sections should be separated by a comment like so:
-
+~~~
 // -------------------------------------------------------  
+~~~
 
 * Use the HTML structure for choosing the spot where to put the selectors. Don't
   just put styles at the bottom of the file.
@@ -73,12 +76,14 @@ Selector structure
 Follow this order:
 * `@extends` and `@includes`.
 * Attributes. The order should resemble (as a general guideline):  
+~~~
 selector {  
-POSITIONING LINE [position,top,left,clear, ETC]  
+  POSITIONING LINE [position,top,left,clear, ETC]  
   BOX MODEL LINE [display,margin,border,padding,width, ETC]  
   TYPOGRAPHY LINE [font,text-indent,font-style, ETC]  
   PREFIXED PROPERTIES [-moz-,-webkit-, ETC]  
 }  
+~~~
 * Media queries.
 * Pseudo elements.
 * States and concatenated classes.
