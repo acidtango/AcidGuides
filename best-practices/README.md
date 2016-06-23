@@ -33,7 +33,7 @@ Object-Oriented Design
 * Prefer small methods. Between one and five lines is best.
 * Prefer small classes with a single, well-defined responsibility. When a class
   exceeds 100 lines, it may be doing too many things.
-* Tell, don't ask.
+* Tell functions, ask values. (Tell, don't ask. But better)
 
 Ruby
 ====
@@ -160,7 +160,8 @@ Email
 JavaScript
 ==========
 
-* Use CoffeeScript.
+* Use plain javascript whenever possible.
+* JQuery pluggins can be used, but it is preferable not to.
 
 General design guidelines
 =========================
@@ -190,7 +191,7 @@ Browsers
 ========
 
 * Don't support clients without Javascript.
-* Don't support IE6, IE7 or IE8.
+* Don't support Internet explorer 9 or older.
 
 Accessibility
 =============
@@ -201,6 +202,6 @@ Accessibility
 * Ensure that screen readers know what your controls do.
 * Test the websites on an actual screen reader.
 
-[Why care?]
+* [Why care?]
 
 [Why care?]: http://www.smashingmagazine.com/2014/05/21/mobile-accessibility-why-care-what-can-you-do/

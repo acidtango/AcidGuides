@@ -102,7 +102,7 @@ Sass
 
 [Sass style guide]
 
-[Sass style guide]: https://github.com/acidtango/acid_guides/tree/master/best-practices/sass/
+[Sass style guide]: https://github.com/acidtango/acid_guides/tree/master/style-guides/sass/
 
 HTML
 ----
